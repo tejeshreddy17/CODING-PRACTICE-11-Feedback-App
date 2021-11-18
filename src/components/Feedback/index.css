@@ -1,1 +1,47 @@
 /* Write your CSS code here. */
+.background-card {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+}
+.feedback-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: white;
+  align-self: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 45px;
+  height: 60%;
+}
+.feedback-emojis-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-self: stretch;
+  flex-grow: 1;
+  margin-top: 25px;
+}
+.each-feedback-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.smile-style {
+  height: 75px;
+  cursor: pointer;
+}
+
+.heading-style {
+  text-align: center;
+  font-size: 22px;
+}
